@@ -145,7 +145,7 @@ local pause = function(object)
 		end
 		
 		--cancel transition		
-		transition.cancel(objTransition)
+		transitionCancelCopy(objTransition)
 	end
 	
 	--remove all transition properties of the object from the respective tables
